@@ -49,7 +49,7 @@ return [
             'host' => env('AZURE_MYSQL_HOST', 'kansaihw-mysql.mysql.database.azure.com'),
             'port' => env('AZURE_MYSQL_PORT', '3306'),
             'database' => env('AZURE_MYSQL_DBNAME', 'laravel-sample'),
-            'username' => env('DB_USERNAME', 'forge'),
+            'username' => env('AZURE_MYSQL_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
