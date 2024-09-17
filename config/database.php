@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('AZURE_MYSQL_HOST', 'kansaihw-mysql.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('AZURE_MYSQL_DBNAME', 'laravel-sample'),
             'username' => env('DB_USERNAME', 'forge'),
